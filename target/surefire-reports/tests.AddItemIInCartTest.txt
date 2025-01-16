@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.AddItemIInCartTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 111.291 s <<< FAILURE! - in tests.AddItemIInCartTest
-addToCartTest(tests.AddItemIInCartTest)  Time elapsed: 81.198 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <button type="submit" data-qa="create-account" class="btn btn-default">...</button> is not clickable at point (320, 638). Other element would receive the click: <div id="aswift_1_host" style="border: none !important; height: 90px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;">...</div>
-  (Session info: chrome=131.0.6778.266)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1.1', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dcce3034dc8bbddcc78f9e8b20d179b5, clickElement {id=f.8F3F239CCDB7E1D56FA6873C70874EFF.d.8D6F76F816A8058455F2DCB2A4424518.e.5526}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/f3/7d9mby7j7yj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49264/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (dcce3034dc8bbddcc78f9e8b20d179b5)] -> xpath: //button[normalize-space()='Create Account']]
-Session ID: dcce3034dc8bbddcc78f9e8b20d179b5
-	at tests.AddItemIInCartTest.addToCartTest(AddItemIInCartTest.java:39)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.968 s - in tests.AddItemIInCartTest
